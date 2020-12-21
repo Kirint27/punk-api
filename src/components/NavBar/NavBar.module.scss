@@ -1,0 +1,27 @@
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    grid-area: nav;
+
+    font-size: 40px;
+    color: #000000;
+
+    button {
+        color: #FFFFFF;
+        background: blue;
+        margin: 40px;
+        padding: 12px 12px;
+        width: 150px;
+        font-size: 20px;
+        cursor: pointer;
+        text-align: center;
+       
+        text-decoration: none;
+        border: 0 none;
+        border-radius: 36px;
+        
+    }
+    }

@@ -1,0 +1,12 @@
+  
+.dashboard {
+    display: grid;
+    grid-template-areas: "nav nav"
+    "sideBar main";
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 100px auto;
+    height: 100vh;
+    margin: 0;
+     height: 100%;
+    min-width: 720px;
+}

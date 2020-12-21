@@ -1,0 +1,9 @@
+.section {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: space-evenly;
+    margin-bottom: 300px;
+    
+    
+
+}
