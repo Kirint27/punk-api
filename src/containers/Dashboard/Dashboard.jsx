@@ -7,7 +7,7 @@ import firebase from '../../firebase';
 
 
 const DashBoard = (props) => {
-  const { filterBeers, beers, signOut, setName, setAbv, setIsClassic, isClassic, abv, name } = props;
+  const { filterBeers, beers, signOut, setName, setAbv,  abv, name } = props;
 
   
    return (
@@ -17,8 +17,7 @@ const DashBoard = (props) => {
               filterBeers={filterBeers}
               setName={setName}
               setAbv={setAbv}
-              setIsClassic={setIsClassic}
-              isClassic={isClassic}
+        
               abv={abv}
               name={name}
           />

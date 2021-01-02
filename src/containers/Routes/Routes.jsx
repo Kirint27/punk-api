@@ -4,7 +4,7 @@ import Dashboard from '../Dashboard';
 import SignIn from '../SignIn';
 
 const Routes = (props) => {
-    const {signIn, signOut, user, filterBeers, beers, setName, setIsClassic, setAbv, isClassic, abv, name } = props;
+    const {signIn, signOut, user, filterBeers, beers, setName,  setAbv,  abv, name } = props;
 
     return (
 
@@ -16,9 +16,8 @@ const Routes = (props) => {
                 filterBeers={filterBeers}
                 setName={setName}
                 setAbv={setAbv}
-                setIsClassic={setIsClassic}
+                
                 beers={beers}
-                isClassic={isClassic}
                 abv={abv}
                 name={name} 
                             />

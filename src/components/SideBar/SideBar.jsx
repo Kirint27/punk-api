@@ -22,8 +22,7 @@ const SideBar = (props) => {
       <Filter filterBeers={filterBeers}
         setName={setName}
         setAbv={setAbv}
-        setIsClassic={setIsClassic}
-        isClassic={isClassic}
+    
         abv={abv}
       />
             
