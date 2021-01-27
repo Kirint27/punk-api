@@ -6,7 +6,7 @@ import styles from './NavBar.module.scss';
 
 
 const Nav = (props) => {
-    const {  signOut,} = props;
+    const {  signOut } = props;
     
     
     return (
