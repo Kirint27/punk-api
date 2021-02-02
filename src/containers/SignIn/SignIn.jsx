@@ -8,7 +8,7 @@ const SignIn = (props) => {
     return (
         <div className={styles.homePage}>
             <h1>Punk API</h1>
-            <h1>Sign in to find your favourites beer !</h1>
+            <h1>Sign in to find your favourite beer !</h1>
             <button onClick={signIn}>Sign In</button>   
             
                  </div>
