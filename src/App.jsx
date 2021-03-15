@@ -1,13 +1,12 @@
 import React from "react";
 
 import { useState, useEffect } from "react";
-import firebase, { provider } from './firebase';
+import firebase, { provider } from "./firebase";
 
-import Routes from './containers/Routes';
-import { navigate } from '@reach/router';
+import Routes from "./containers/Routes";
+import { navigate } from "@reach/router";
 
 const App = () => {
-
   // state to keep track of the beers to be displayed
   const [beers, setBeers] = useState([]);
   // state to keep track of changes in the filter section
@@ -19,22 +18,17 @@ const App = () => {
 
   // lifecycle effects
   useEffect(() => {
-    getUser()
-  }, [])
+    getUser();
+  }, []);
 
   useEffect(() => {
     filterBeers();
   }, [name, abv, isClassic]);
 
-  
   const filterBeers = () => {
-    
     const searchTermStr = name ? `&beer_name=${name}` : "";
 
-    
     const abvQueryStr = abv ? `&abv_gt=6` : "";
-
-   
 
     // general URL to get random beers
     const url = `https://api.punkapi.com/v2/beers?per_page=50${searchTermStr}${abvQueryStr}`;
@@ -42,16 +36,14 @@ const App = () => {
       .then((res) => res.json())
       .then((res) => {
         setBeers(res);
-      })
-  }
+      });
+  };
 
-
-  // Authentification 
-   const signIn = () => {
-    firebase.auth().signInWithRedirect(provider)
-      navigate("api");
-    }
- 
+  // Authentification
+  const signIn = () => {
+    firebase.auth().signInWithRedirect(provider);
+    navigate("api");
+  };
 
   const signOut = () => {
     firebase
@@ -78,7 +70,7 @@ const App = () => {
 
   useEffect(() => {
     getUser();
-  })
+  });
 
   return (
     <div className="App">
@@ -95,6 +87,6 @@ const App = () => {
       />
     </div>
   );
-}
+};
 
 export default App;

@@ -1,5 +1,5 @@
 import React from "react";
-import styles from './CardList.module.scss';
+import styles from "./CardList.module.scss";
 import CardItems from "../Card";
 
 const CardList = (props) => {
