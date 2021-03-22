@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "./SignIn.module.scss";
-import beer from "./brewdog.png";
 
 
 const SignIn = (props) => {
@@ -10,10 +9,11 @@ const SignIn = (props) => {
     <div className={styles.homePage}>
       <h1>
         PUNK-API</h1>
-        <h4>Search for your favourite beer</h4>
-        <img src={beer} />
+        <h4> Sign in to search for your favourite beer</h4>
+        <button onClick={signIn}>SIGN IN</button>
+        
 
-      <button onClick={signIn}>SIGN IN</button>
+      
     </div>
   );
 };
