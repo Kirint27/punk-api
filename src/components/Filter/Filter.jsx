@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import styles from "./Filter.module.scss";
 
 const Filter = (props) => {
-  const { filterBeers, setAbv, abv } = props;
+  const { filterBeers, setAbv, abv} = props;
 
   return (
     <form>
@@ -16,6 +16,7 @@ const Filter = (props) => {
         }}
       />
       <label htmlFor="abv"> Alcohol content ({">"}6.0%) </label>
+      
     </form>
   );
 };
