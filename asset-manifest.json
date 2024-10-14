@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/beer.kirinthapar.co.uk/static/css/main.b0b19ff3.chunk.css",
+    "main.js": "/beer.kirinthapar.co.uk/static/js/main.432d7c20.chunk.js",
+    "main.js.map": "/beer.kirinthapar.co.uk/static/js/main.432d7c20.chunk.js.map",
+    "runtime-main.js": "/beer.kirinthapar.co.uk/static/js/runtime-main.3d37f136.js",
+    "runtime-main.js.map": "/beer.kirinthapar.co.uk/static/js/runtime-main.3d37f136.js.map",
+    "static/js/2.77c76f94.chunk.js": "/beer.kirinthapar.co.uk/static/js/2.77c76f94.chunk.js",
+    "static/js/2.77c76f94.chunk.js.map": "/beer.kirinthapar.co.uk/static/js/2.77c76f94.chunk.js.map",
+    "static/js/3.8ee733f0.chunk.js": "/beer.kirinthapar.co.uk/static/js/3.8ee733f0.chunk.js",
+    "static/js/3.8ee733f0.chunk.js.map": "/beer.kirinthapar.co.uk/static/js/3.8ee733f0.chunk.js.map",
+    "index.html": "/beer.kirinthapar.co.uk/index.html",
+    "static/css/main.b0b19ff3.chunk.css.map": "/beer.kirinthapar.co.uk/static/css/main.b0b19ff3.chunk.css.map",
+    "static/js/2.77c76f94.chunk.js.LICENSE.txt": "/beer.kirinthapar.co.uk/static/js/2.77c76f94.chunk.js.LICENSE.txt",
+    "static/media/SignIn.module.scss": "/beer.kirinthapar.co.uk/static/media/beer.4e7c6deb.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3d37f136.js",
+    "static/js/2.77c76f94.chunk.js",
+    "static/css/main.b0b19ff3.chunk.css",
+    "static/js/main.432d7c20.chunk.js"
+  ]
+}
